@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
 
-import {accountReducer} from "./accounrReducer";
+import AccountReducer from './accountReducer';
 
-const reducers = combineReducers({account: accountReducer});
+const reducers = combineReducers({account: AccountReducer});
 
 
 
